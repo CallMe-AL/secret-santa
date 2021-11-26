@@ -1,0 +1,16 @@
+.warning-messages-container {
+  margin: 10px;
+  max-height: 500px;
+  .warning-message {
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+    padding: 3px;
+    height: 25px;
+    background-color: $warning-color;
+  }
+
+  .warning-message ~ .warning-message {
+    margin-top: 5px;
+  }
+}

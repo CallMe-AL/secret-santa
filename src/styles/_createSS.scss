@@ -1,0 +1,7 @@
+.create-ss-list {
+  @include button-styles-1;
+
+  &:hover {
+    @include button-styles-hover;
+  }
+}

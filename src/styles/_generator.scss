@@ -1,0 +1,25 @@
+.generator-wrap {
+  margin: 0px auto;
+  color: black;
+  max-width: 600px;
+
+  .main-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    color: rgb(61, 61, 61);
+  }
+
+  .add-participant-btn {
+    @include button-styles-1;
+
+    &:hover {
+      @include button-styles-hover;
+    }
+  }
+}

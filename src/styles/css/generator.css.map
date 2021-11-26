@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,MAAM,EAAE,MAAM;CACf",
+    "sources": [
+        "../generator.scss"
+    ],
+    "names": [],
+    "file": "generator.css"
+}

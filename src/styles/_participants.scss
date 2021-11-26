@@ -1,0 +1,50 @@
+.participants-container {
+  max-width: 350px;
+  margin: 0 auto;
+  .participant-container {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .participant-number {
+      margin-right: 5px;
+      position: relative;
+      color: white;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+      background-color: black;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .input {
+      height: 30px;
+      padding-left: 5px;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 0 1px black;
+      flex: 1;
+
+      &.warning {
+        border: 2px solid red;
+      }
+    }
+
+    .remove-btn {
+      margin-left: 5px;
+      // border: 2px solid $christmas-red2;
+      border: transparent;
+      border-radius: 10px;
+      background-color: $christmas-red1;
+      padding: 6px;
+      font-size: 0.8rem;
+      color: white;
+      letter-spacing: 1px;
+
+      &:hover {
+        background-color: $christmas-red2;
+      }
+    }
+  }
+}

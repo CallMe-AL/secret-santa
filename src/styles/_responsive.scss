@@ -1,0 +1,29 @@
+@include media-md {
+  .participants-container {
+    .participant-container {
+      .input {
+        height: 40px;
+        font-size: 1.2rem;
+      }
+
+      .remove-btn {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .generator-wrap {
+    .add-participant-btn {
+      font-size: 1rem;
+    }
+
+    .create-ss-list {
+      font-size: 1rem;
+    }
+
+    .pair-item {
+      width: 350px;
+      font-size: 1.2rem;
+    }
+  }
+}

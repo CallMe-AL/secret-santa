@@ -1,0 +1,59 @@
+.pair-item {
+  list-style-type: none;
+  width: 300px;
+  margin: 0 auto;
+
+  li {
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 0 2px black;
+    border-radius: 10px;
+    background-color: #fff;
+
+    .pair-number {
+      background-color: #235e6f;
+      height: 25px;
+      width: 25px;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 5px;
+    }
+
+    div {
+      flex: 4;
+      span {
+        color: $christmas-red2;
+        font-weight: 700;
+      }
+
+      .fa-glass-cheers {
+        // color: $christmas-blue;
+        color: #235e6f;
+      }
+    }
+
+    .copy-btn {
+      margin-left: 5px;
+      color: #235e6f;
+      font-weight: 700;
+      background: white;
+      font-size: 0.8rem;
+      padding: 5px;
+      border: 2px solid #235e6f;
+      border-radius: 10px;
+      letter-spacing: 1px;
+
+      &:hover {
+        background: #8acae0;
+        color: #235e6f;
+      }
+    }
+  }
+}

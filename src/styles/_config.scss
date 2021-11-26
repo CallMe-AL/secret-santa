@@ -1,0 +1,39 @@
+$warning-color: #d12e2e;
+
+$christmas-red1: #d90000;
+// $christmas-red1: #f5624d;
+$christmas-red2: #cc231e;
+$christmas-red2: red;
+$christmas-green1: #34a65f;
+$christmas-green2: #0f8a5f;
+$christmas-blue: #8acae0;
+
+@mixin button-styles-1 {
+  display: block;
+  margin: 20px auto;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 5px;
+  color: white;
+
+  border: 2px solid $christmas-green2;
+  border-radius: 10px;
+  background-color: $christmas-green1;
+}
+
+@mixin button-styles-hover {
+  background-color: #40cc76;
+  color: $christmas-red2;
+}
+
+@mixin media-md {
+  @media screen and (min-width: 650px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
