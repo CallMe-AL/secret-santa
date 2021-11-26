@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/secret-santa/static/css/main.835475f0.chunk.css",
-    "main.js": "/secret-santa/static/js/main.a07bf68c.chunk.js",
-    "main.js.map": "/secret-santa/static/js/main.a07bf68c.chunk.js.map",
+    "main.js": "/secret-santa/static/js/main.f92ef4c4.chunk.js",
+    "main.js.map": "/secret-santa/static/js/main.f92ef4c4.chunk.js.map",
     "runtime-main.js": "/secret-santa/static/js/runtime-main.44e79f29.js",
     "runtime-main.js.map": "/secret-santa/static/js/runtime-main.44e79f29.js.map",
     "static/js/2.d7e11271.chunk.js": "/secret-santa/static/js/2.d7e11271.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.44e79f29.js",
     "static/js/2.d7e11271.chunk.js",
     "static/css/main.835475f0.chunk.css",
-    "static/js/main.a07bf68c.chunk.js"
+    "static/js/main.f92ef4c4.chunk.js"
   ]
 }
