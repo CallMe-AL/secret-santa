@@ -27,7 +27,7 @@ const PairItem = (props) => {
           <span>{props.gifter}</span> is gifting <span>{props.giftee}</span> <i class="fas fa-glass-cheers"></i>
         </div>
         {<CopyToClipboard 
-          text={window.location.origin.toString() + window.location.pathname.toString() + "/?name=" + props.gifter.split(" ").join("%20") + "&key=" + props.encryptString(props.giftee)}
+          text={window.location.origin.toString() + window.location.pathname.toString() + "?name=" + props.gifter.split(" ").join("%20") + "&key=" + props.encryptString(props.giftee)}
           onCopy={() => showCopied()}
           >
           
