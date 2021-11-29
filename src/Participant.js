@@ -2,7 +2,10 @@ const Participant = (props) => {
 
   return (
     <div className="participant-container">
-      <span className="participant-number">{props.number}</span>
+      <div className="number-container">
+        <span className="participant-number">{props.number}</span>
+      </div>
+      
       <input 
         type="text"
         placeholder="Enter participant name"

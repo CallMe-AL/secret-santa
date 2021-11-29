@@ -6,16 +6,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .participant-number {
+    .number-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin-right: 5px;
-      position: relative;
       color: white;
       height: 25px;
       width: 25px;
       border-radius: 50%;
       background-color: black;
-      text-align: center;
-      line-height: 1.5;
+      .participant-number {
+      }
     }
 
     .input {
