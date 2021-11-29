@@ -34,3 +34,39 @@
     }
   }
 }
+.pair-container {
+  .main-img {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+  .inner-pair-container {
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px black;
+    padding: 5px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+
+    h2 {
+      span {
+        color: $christmas-green2;
+      }
+    }
+    h3 {
+      span {
+        color: $christmas-red2;
+      }
+    }
+
+    .pairing-img {
+      height: 150px;
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
