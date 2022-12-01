@@ -4,26 +4,27 @@
   margin: 0 auto;
 
   li {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px;
+    padding: 0.3125rem;
     box-shadow: 0 0 2px black;
     border-radius: 10px;
     background-color: #fff;
 
     .pair-number {
       background-color: #235e6f;
-      height: 25px;
-      width: 25px;
+      height: 1.5625rem;
+      width: 1.5625rem;
       color: white;
       border-radius: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-right: 5px;
+      margin-right: 0.3125rem;
+      padding: 0.5rem;
     }
 
     div {
@@ -40,14 +41,14 @@
     }
 
     .copy-btn {
-      margin-left: 5px;
+      margin-left: 0.3125rem;
       color: #235e6f;
       font-weight: 700;
       background: white;
       font-size: 0.8rem;
-      padding: 5px;
+      padding: 0.3125rem;
       border: 2px solid #235e6f;
-      border-radius: 10px;
+      border-radius: 0.625rem;
       letter-spacing: 1px;
 
       &:hover {
